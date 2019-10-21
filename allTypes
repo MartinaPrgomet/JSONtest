@@ -1,0 +1,122 @@
+{
+  "MoreProviderSettings":{
+    "RecordTypes":[
+      {
+        "RecordType":{
+          "RecordProperties":[
+            {
+              "name":"mq:barCode",
+              "type":"text",
+              "displayName":"Barkod",
+              "isReadOnly":"false",
+              "isVisible":"true",
+              "isRequired":"false",
+              "defaultValue":"",
+              "choices":"",
+              "maxLength":"",
+              "numberOfLines":"",
+              "min":"",
+              "max":"",
+              "format":"",
+              "orderNumber":"1",
+              "propertyType":"documentTypeProperty",
+              "expression" : "@[Separation barcode]"
+            },
+            {
+              "name":"loggedInUser",
+              "type":"text",
+              "displayName":"Korisnik",
+              "isReadOnly":"false",
+              "isVisible":"false",
+              "isRequired":"false",
+              "defaultValue":"",
+              "choices":"",
+              "maxLength":"",
+              "numberOfLines":"",
+              "min":"",
+              "max":"",
+              "format":"",
+              "orderNumber":"2",
+              "propertyType":"documentTypeProperty",
+              "expression" : "@[Logged user]"
+            },
+            {
+              "name":"cm:title",
+              "type":"text",
+              "displayName":"Naziv dokumenta",
+              "isReadOnly":"false",
+              "isVisible":"false",
+              "isRequired":"false",
+              "defaultValue":"Ostali dokumenti",
+              "choices":"",
+              "maxLength":"",
+              "numberOfLines":"",
+              "min":"",
+              "max":"",
+              "format":"",
+              "orderNumber":"3",
+              "propertyType":"documentTypeProperty",
+              "expression" : ""
+            },
+            {
+              "name":"aspects",
+              "type":"text",
+              "displayName":"aspects",
+              "isReadOnly":"false",
+              "isVisible":"false",
+              "isRequired":"false",
+              "defaultValue":"mq:ostali_document",
+              "choices":"",
+              "maxLength":"",
+              "numberOfLines":"",
+              "min":"",
+              "max":"",
+              "format":"",
+              "orderNumber":"4",
+              "propertyType":"documentTypeProperty",
+              "expression" : ""
+            },
+            {
+              "name":"formLocale",
+              "type":"text",
+              "displayName":"formLocale",
+              "isReadOnly":"false",
+              "isVisible":"false",
+              "isRequired":"false",
+              "defaultValue":"hr_HR",
+              "choices":"",
+              "maxLength":"",
+              "numberOfLines":"",
+              "min":"",
+              "max":"",
+              "format":"",
+              "orderNumber":"5",
+              "propertyType":"documentTypeProperty",
+              "expression" : ""
+            },
+            {
+              "name":"mq:customTypeLabel",
+              "type":"text",
+              "displayName":"customTypeLabel",
+              "isReadOnly":"false",
+              "isVisible":"false",
+              "isRequired":"false",
+              "defaultValue":"Ostali dokumenti",
+              "choices":"",
+              "maxLength":"",
+              "numberOfLines":"",
+              "min":"",
+              "max":"",
+              "format":"",
+              "orderNumber":"6",
+              "propertyType":"documentTypeProperty",
+              "expression" : ""
+            }
+          ],
+          "displayName":"Ostali dokumenti",
+          "customTypeId":"mq_recordOstaliDokumenti"
+        }
+      }
+    ]
+  }
+}
